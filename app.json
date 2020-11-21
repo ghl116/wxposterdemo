@@ -1,10 +1,11 @@
 {
   "pages": [
+    "pages/poster2/poster2",
     "pages/index/index",
     "pages/poster/poster",
     "pages/pageShare/pageShare",
-    "pages/logs/logs",
-    "pages/poster2/poster2"
+    "pages/logs/logs"
+   
   ],
   "window": {
     "backgroundTextStyle": "light",

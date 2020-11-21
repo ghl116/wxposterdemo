@@ -68,6 +68,12 @@
         {
           "name": "poster2",
           "pathName": "pages/poster2/poster2",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pageShare",
+          "pathName": "pages/pageShare/pageShare",
           "scene": null
         }
       ]

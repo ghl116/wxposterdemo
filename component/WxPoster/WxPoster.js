@@ -199,7 +199,7 @@ Component({
       })
     },
     _getQRCode: function (e) {
-      this.data.pageQRCodeImgUrl = "/images/logo2.png"
+      this.data.pageQRCodeImgUrl = "/images/avatar.jpeg"
     },
     _onSettingTap: function (e) {
       var that = this;
