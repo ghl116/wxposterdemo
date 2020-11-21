@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<scroll-view class="scrollPage">
+<view>
+  <image src="{{shareImage}}" class="share-image"></image>
+  <canvasdrawer painting="{{painting}}" class="canvasdrawer" bind:getImage="eventGetImage"/>
+  <button bind:tap="init" wx:if="{{shareImage==''}}">生成海报</button>
+  <button bind:tap="eventSave" wx:if="{{shareImage!=''}}">保存到本地</button>
+  <!-- <button bind:tap="previewImg" data-index="0">预览图片</button> -->
+  <button class="bg-green" open-type='getUserInfo' bindgetuserinfo="bindGetUserInfo">微信授权用户信息</button>
+  <button type='primary' class='openSetting' open-type="openSetting"
+          bindopensetting='handleSetting'>微信授权写入本地相册</button>
+</view>
+</scroll-view>

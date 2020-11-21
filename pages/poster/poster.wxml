@@ -1,0 +1,10 @@
+<!--pages/credit/poster.wxml-->
+<!-- <canvas style="width: 100vw; height: 500px" canvas-id="shareImg"></canvas> -->
+<canvas style="width: 100vw; height: 500px" canvas-id="cv-pic"></canvas>
+<!-- <image src="data:image/jpeg;base64,{{code}}" mode="widthFix"></image> -->
+<button bindtap="getQrCode" type="primary"> 生成二维码</button>
+<button bindtap="drawImage2" type="primary"> 生成海报</button>
+<button bindtap="saveToPhotosAlbum"> 保存海报</button>
+<button bindtap="previewImg"> 预览</button>
+
+
